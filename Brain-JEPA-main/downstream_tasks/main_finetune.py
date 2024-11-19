@@ -66,7 +66,7 @@ def main(args):
             pin_mem=args.pin_mem,
             num_workers=args.num_workers,
             drop_last=False,
-            processed_dir=f'path/to/dataset',
+            processed_dir='E:/recherche/brain/brain-jepa/Brain-JEPA-main/Brain-JEPA-main/data',#f'path/to/dataset',
             use_normalization=args.use_normalization,
             downsample=args.downsample
         )

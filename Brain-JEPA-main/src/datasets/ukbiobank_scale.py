@@ -1,3 +1,4 @@
+import torch
 def make_ukbiobank1k(batch_size, collator, pin_mem, num_workers, world_size, rank, drop_last, downsample, use_standatdization):
     """
     Mock implementation for missing make_ukbiobank1k.
